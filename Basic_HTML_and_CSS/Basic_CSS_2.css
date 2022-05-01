@@ -1,0 +1,8 @@
+p {
+	color: red;
+	background: black;
+	font-weight: bold;
+	text_align: center;
+	font-size: medium;
+	/* This is a comment for CSS */
+}

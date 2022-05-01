@@ -5,6 +5,10 @@ p {
 	text-align: center;
 }
 
+body {
+	text-align: center;
+}
+
 .danger {
 	background-color: black;
 	color: yellow;
