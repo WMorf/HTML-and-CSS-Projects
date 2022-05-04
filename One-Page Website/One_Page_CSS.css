@@ -22,6 +22,7 @@
 
 .d { /* NAV */
 	background: black;
+	color: yellow;
 	display: inline-block;
 	font-size: 25px;
 	float: center;
@@ -31,13 +32,15 @@
 
 .e { /* About */
 	display: inline-block;
-	background: black;
+	border-style: double;
+	background-color:#1a0d00;
+	padding: 20px;
 	color: silver;
 
 }
 
 .f { /* About */
-	display: inline-block;
+	display: block;
 	background: black;
 	color: silver;
 }
