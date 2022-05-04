@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
 	</head>
 	
-	<body>
+	<body class="c">
 	
 		<section class="a"> <!-- HOME -->
 			<div id="home" class="b">
@@ -19,19 +19,24 @@
 		</section>
 	
 		<section> <!-- NAV -->
-			<div>
-				<ul>
-					<a href="#home" id="link"><li>HOME</li></a>
-					<a href="#home" id="link"><li>VIDEO</li></a>
-					<a href="#gallery"><li>GALLERY</li></a>
-					<a href="#contact"><li>RESERVATIONS</li></a>
-					<a href="#about"><li>ABOUT</li></a>
-				</ul>
-			</div>
+			<div style="text-align: center">
+				<div class="d"> <!-- Removed ul and <li> tags -->
+						<a href="#home" id="link">HOME &nbsp;</a>
+						<a href="#video" id="link">VIDEO &nbsp;</a>
+						<a href="#gallery" id="link">GALLERY &nbsp;</a>
+						<a href="#contact" id="link">RESERVATIONS &nbsp;</a>
+						<a href="#about" id="link">ABOUT &nbsp;</a>
+				</div>
+			</div>	
 		</section>
 	
 		<section> <!-- VIDEO -->
-			<div id="video">
+			<div id="video" style="text-align: center">
+				<br>
+				<br>
+				<iframe width="400" height="200" src="https://www.youtube.com/embed/sVVj55r3_HY?">
+				</iframe>
+
 			</div>
 		</section>
 	
@@ -75,8 +80,8 @@
 		</section>
 		
 		<section>
-			<div id="about">
-				<article>
+			<div id="about" style="text-align: center">
+				<article class="e">
 					<h2>Dwarf Fortress</h2>
 					<p>Dwarf Fortress (officially called Slaves to Armok: God of Blood Chapter II: Dwarf Fortress)<br>
 					is a construction and management simulation and roguelike indie video game created by Bay 12 Games.<br>
@@ -89,9 +94,9 @@
 		
 		<section>
 			<div>
-				<footer>
+				<footer class="e">
 					<p>Author: Wesley Morford 2022</p>
-					<p>Dwarf Fortress Creators: Zach and Tarn Adams of Bay12Games&copy;
+					<p>Dwarf Fortress Creators: Zach and Tarn Adams of Bay12Games&copy;</p>
 				</footer>
 			</div>
 		</section>
