@@ -1,0 +1,16 @@
+.a { /* header */
+	color: silver;
+	text-align: center;
+	font-weight: bold;
+	font-size: 45px;
+	font-family: "Lucida Console";
+}
+
+.b {
+	text-align: center;
+	background-image: url('./images/thumbnail_11.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	border-style: solid;
+	/* style="background-image: url('./images/thumbnail_11.png');" How to write in html*/
+}
