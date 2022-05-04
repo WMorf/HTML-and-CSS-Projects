@@ -3,6 +3,7 @@
 	background-image: url('./images/thumbnail_1.png');
 	background-repeat: round;
 	text-align: center;
+	text-shadow: 2px 2px #ff0000;
 	font-size: 45px;
 	font-family: "Lucida Console";
 }
@@ -39,8 +40,16 @@
 
 }
 
-.f { /* About */
+.f { /* Footer */
 	display: block;
 	background: black;
 	color: silver;
+}
+
+.g { /* Contact */
+	border-radius: 20px;
+	background-color: #54411B;
+	font-weight: bold;
+	font-family: "Monospace";
+	color: yellow;
 }
