@@ -28,16 +28,6 @@
 	font-size: 25px;
 	float: center;
 	text-align: center;
-	text-decoration: none;
-}
-
-.e { /* About */
-	display: inline-block;
-	border-style: double;
-	background-color:#1a0d00;
-	padding: 20px;
-	color: silver;
-
 }
 
 .f { /* Footer */
@@ -52,4 +42,12 @@
 	font-weight: bold;
 	font-family: "Monospace";
 	color: yellow;
+}
+
+.textblock { /* Block for text to be displayed on and bordered */
+	display: inline-block;
+	border-style: double;
+	background-color:#1a0d00;
+	padding: 20px;
+	color: silver;
 }
