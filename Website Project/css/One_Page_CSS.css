@@ -1,6 +1,6 @@
 .a { /* Header */
 	color: silver;
-	background-image: url('./images/thumbnail_1.png');
+	background-image: url('../images/Thumb/thumbnail_1.png');
 	background-repeat: round;
 	text-align: center;
 	text-shadow: 2px 2px #ff0000;
@@ -10,7 +10,7 @@
 
 .b { /* Title Image */
 	text-align: center;
-	background-image: url('./images/thumbnail_11.png');
+	background-image: url('../images/Thumb/thumbnail_11.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 50px;
@@ -18,7 +18,7 @@
 }
 
 .c { /* Site Background */
-	background-image: url('./images/backdrop.png');
+	background-image: url('../images/Thumb/backdrop.png');
 }
 
 .d { /* NAV */
