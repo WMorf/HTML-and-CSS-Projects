@@ -1,14 +1,40 @@
-.a { /* Header */
+body { /* Site Background */
+	background-image: url('../images/Thumb/backdrop.png');
+}
+
+nav { /* NAV */
+	background: black;
+	display: block;
+	border-style: double;
+	color: silver;
+	font-size: 25px;
+}
+
+footer { /* Footer */
+	display: block;
+	background: black;
+	color: silver;
+}
+
+form { /* Contact */
+	border-radius: 20px;
+	background-color: #54411B;
+	font-weight: bold;
+	font-family: "Monospace" monospace,Arial, Helvetica, sans-serif;
+	color: yellow;
+}
+
+.home { /* Header */
 	color: silver;
 	background-image: url('../images/Thumb/thumbnail_1.png');
 	background-repeat: round;
 	text-align: center;
 	text-shadow: 2px 2px #ff0000;
 	font-size: 45px;
-	font-family: "Lucida Console";
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.b { /* Title Image */
+.titleimage { /* Title Image */
 	text-align: center;
 	background-image: url('../images/Thumb/thumbnail_11.png');
 	background-repeat: no-repeat;
@@ -17,38 +43,22 @@
 	/* style="background-image: url('./images/thumbnail_11.png');" How to write in html*/
 }
 
-.c { /* Site Background */
-	background-image: url('../images/Thumb/backdrop.png');
-}
-
-.d { /* NAV */
-	background: black;
-	color: yellow;
-	display: inline-block;
-	font-size: 25px;
-	float: center;
-	text-align: center;
-}
-
-.f { /* Footer */
-	display: block;
-	background: black;
-	color: silver;
-}
-
-.g { /* Contact */
-	border-radius: 20px;
-	background-color: #54411B;
-	font-weight: bold;
-	font-family: "Monospace";
-	color: yellow;
-}
-
 .textblock { /* Block for text to be displayed on and bordered */
 	display: inline-block;
 	border-style: double;
 	background-color:#1a0d00;
-	padding: 20px;
+	padding: 10px;
 	color: silver;
 	margin: 1px 1px 1px 1px;
+}
+
+.center {
+	text-align: center;
+}
+
+.thumbs {
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+    border: 10px solid black;
 }
