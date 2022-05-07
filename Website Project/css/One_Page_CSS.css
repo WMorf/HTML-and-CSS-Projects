@@ -24,6 +24,11 @@ form { /* Contact */
 	color: yellow;
 }
 
+th {
+	font-family: "Monospace" monospace,Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
 .home { /* Header */
 	color: silver;
 	background-image: url('../images/Thumb/thumbnail_1.png');
