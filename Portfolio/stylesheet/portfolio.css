@@ -1,0 +1,35 @@
+body {
+    margin: 0%;
+}
+
+/* NAVBAR STYLING */
+
+.Navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    -webkit-animation: moveNav 5s;
+    animation: moveNav 5s;
+}
+
+@keyframes moveNav {
+    from {left:-100vw;}
+    to {left: 0vw;}
+}
+
+.Navbar a {
+    float: left;
+    display: block;
+    color: blanchedalmond;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-family: Avant Garde, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    -webkit-animation: moveNavText 5.75s;
+    animation: moveNavText 5.75s;
+}
