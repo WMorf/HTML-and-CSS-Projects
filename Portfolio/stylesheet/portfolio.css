@@ -7,12 +7,12 @@ h1 {
     text-transform: uppercase;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    margin-top: 3%;
+    margin-top: -3%;
     color: blue;
 }
 
 h1:hover {
-    color:rgb(28, 96, 223);
+    color:black;
     transition: .75s;
 }
 
@@ -30,9 +30,9 @@ p {
 }
 
 p:hover {
-    transition: transform .5s;
+    transition: transform 1s;
     transform: scale(1.01);
-    color: blue;
+    color: rgb(51, 51, 255);
 }
 
 .center {
@@ -86,13 +86,14 @@ footer {
 
 .Navbar {
     overflow: hidden;
-    background-color: rgb(15, 18, 14);
+    background-color: rgb(30, 33, 30);
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
     -webkit-animation: moveNav 5s;
     animation: moveNav 5s;
+    border: 2px solid rgb(2, 2, 2);
 }
 
 @keyframes moveNav {
@@ -179,7 +180,7 @@ footer {
     padding: 10px;
     padding-top: 3%;
     height: 400px;
-    background-color: #cfcdcd;
+    background-color: whitesmoke;
     border: 1px solid black;
     border-radius: 5px;
 }
@@ -228,5 +229,33 @@ input[type=text] {
 }
 
 input[type=text]:hover {
-    box-shadow: 0 0 5px rgb(8, 80, 17);
+    box-shadow: 0 0 5px rgb(13, 14, 106);
+}
+
+input[type=submit] {
+    background-color: black;
+    color: blanchedalmond;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: whitesmoke;
+    color: black;
+    transform: scale(1.5);
+    transition: transform 1.5s;
+}
+
+form {
+    border-radius: 5px;
+    background-color:rgb(243, 239, 239);
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
