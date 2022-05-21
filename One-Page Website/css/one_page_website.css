@@ -79,5 +79,12 @@ th {
     float: left;
     margin: 5px;
     cursor: pointer;
+    border: 2px solid black;
+	border-radius: 3px;
+}
+
+.gif {
+    float: left;
+    margin: 5px;
     border: 10px solid black;
 }
