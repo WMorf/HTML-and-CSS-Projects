@@ -36,5 +36,5 @@ function showSlides(n) {
     }
     slides[slideIndex-1].style.display = "block"; //displays current slide
     dots[slideIndex-1].className += " active"; //makes dot active
-    captionText.innerHTML = dots[slideIndex-1].alt; //displays alt text beneath 
+    captionText.innerHTML = dots[slideIndex-1].alt; //displays alt text beneath currentSlide
 }
