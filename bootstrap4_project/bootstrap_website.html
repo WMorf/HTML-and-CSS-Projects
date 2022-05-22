@@ -37,7 +37,7 @@
 
         <div class="jumbotron jumbotron-fluid bg-dark text-center">
         <div class="container">
-            <h1 class="display-4 text-light">Mushroom Cavern Arena</h1>
+            <h1 class="display-4 text-light" id="dropuplink">Mushroom Cavern Arena</h1>
             <p class="lead text-light">Be honest, you only came for the popcorn</p>
         </div>
         </div>
@@ -152,15 +152,17 @@
         <br>
         <br>
 
-        <!-- Greeting for step 342 -->
+        <!-- NEW dropup for step 342 -->
         <div class="dropup">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Greeting
             </button>
+            <!-- Each button can be assigned a link when clicked on-->
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" >Hello There!</a> <!-- Displays Message -->
-                <a class="dropdown-item" >These links don't go anywhere...</a>
-                <a class="dropdown-item" >But have a nice day!</a>  
+                <a class="dropdown-item" href="" >Hello There!</a> <!-- Displays Message -->
+                <a class="dropdown-item" href="" >These links don't go anywhere...</a>
+                <a class="dropdown-item" href="#dropuplink" >Except this one!</a>
+                <a class="dropdown-item" href="">But have a nice day!</a>  
             </div>
           </div>
 
