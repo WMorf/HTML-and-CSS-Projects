@@ -124,17 +124,83 @@
             </div>
         </div>
 
-        <!-- /showtimes-->
+        <!-- Arena Deals -->
+        <div class="jumbotron jumbotron-fluid bg-dark mt-5 text-center">
+            <div class="container">
+                <h1 class="display-4 hidden-sm down" style="color:#fff;font-family:roboto;font-weight: 900;text-transform: uppercase;">
+                Arena Deals</h1>
+                <p class="lead text-light">Check out our seasonal deals...</p>
+                <!-- deals -->
+                <button type="button"  class="btn btn-outline-primary" data-toggle="modal" data-target="#register">See Seasonal Arena Deals</button>
+            </div>
+        </div>
 
+        <!-- Sign Up-->
         <div class="text-center">
             <form>
                 <h2 class="text-primary my-5">Sign up for DWARF FORT RESORT rewards today!</h2>
                 <div class="form-group">
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Submit your email to recieve a free *Spider Silk Sock* and arena deals">
+                Sign Up!
+                </button>
             </form>
         </div>
+
+        <br>
+        <br>
+
+        <!-- Greeting for step 342 -->
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Greeting
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" >Hello There!</a>
+            </div>
+          </div>
+
+        <!-- FORM MODAL -->
+        <div class="modal" tabindex="-1" role="dialog" id="register">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Register for Arena Deals</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <form>
+                            <fieldset class="form-group">
+                                <label for="firstname">First Name</label>
+                                <input type="text" class="form-control" id="firstname" placeholder="First Name...">
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label for="lastname">Last Name</label>
+                                <input type="text" class="form-control" id="lasstname" placeholder="Last Name...">
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label for="email">Email</label>
+                                <input type="text" class="form-control" id="email" placeholder="Email...">
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label for="password">Password</label>
+                                <input type="text" class="form-control" id="password" placeholder="Password...">
+                            </fieldset>
+                        </form>
+
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+            </div>
 
         <div class="container my-5" id="deal">
             <ul class="nav nav-inline">
@@ -157,8 +223,15 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+    <script>
+        $('.popover-dismiss').popover({
+            trigger: 'focus'
+        })
+    </script>
+
+    </body>
 </html>
